@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ramesh Vinayagam | Portfolio</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f4f8;
+            color: #333;
+        }
+
+        header {
+            background: linear-gradient(135deg, #4b6cb7, #182848);
+            color: white;
+            text-align: center;
+            padding: 3rem 1rem 6rem;
+            position: relative;
+        }
+
+        .profile-picture {
+            width: 130px;
+            height: 130px;
+            border-radius: 50%;
+            border: 5px solid white;
+            object-fit: cover;
+            position: absolute;
+            bottom: -65px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        .header-content h1 {
+            font-size: 2.2rem;
+            margin: 0;
+        }
+
+        .header-content p {
+            margin: 0.5rem 0 0;
+            font-style: italic;
+        }
+
+        nav {
+            background-color: #1b1f3b;
+            padding: 1rem 0;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        .section-content {
+            background-color: white;
+            padding: 2rem;
+            border-radius: 15px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+            margin-bottom: 2rem;
+        }
+
+        .section-content h2 {
+            color: #4b6cb7;
+            margin-top: 0;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        .download-button {
+            background-color: #4b6cb7;
+            color: white;
+            padding: 0.6rem 1.4rem;
+            text-decoration: none;
+            border-radius: 30px;
+            display: inline-block;
+            margin-top: 1rem;
+        }
+
+        .download-button:hover {
+            background-color: #3a58a0;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1.5rem 0;
+            background-color: #1b1f3b;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1>Ramesh Vinayagam</h1>
+            <p>Motivated BCA Student | Aspiring Data Analyst</p>
+            <img src="profile.jpg" alt="Profile Picture" class="profile-picture">
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#profile">Profile</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#languages">Languages</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#volunteer">Volunteer</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <section id="profile" class="section-content">
+            <h2>Profile</h2>
+            <p>Motivated and ambitious college student pursuing a degree in BCA at Hindustan College of Arts and Science. Passionate about Data Analysis and eager to apply academic knowledge in real-world settings. Strong skills in problem-solving, teamwork, communication, with a proactive approach to learning and personal growth.</p>
+            <p><b>Phone:</b> +91 7448644517</p>
+            <p><b>Email:</b> mailtorameshvinayagam@gmail.com</p>
+            <p><b>Location:</b> Chennai</p>
+            <a class="download-button" href="Resume.pdf" download>📄 Download Resume</a>
+        </section>
+
+        <section id="education" class="section-content">
+            <h2>Education</h2>
+            <ul>
+                <li><b>Hindustan College of Arts and Science</b> – 2023–2026</li>
+                <li><b>Degree:</b> Bachelor of Computer Applications</li>
+            </ul>
+        </section>
+
+        <section id="languages" class="section-content">
+            <h2>Languages</h2>
+            <ul>
+                <li>Tamil</li>
+                <li>English</li>
+            </ul>
+        </section>
+
+        <section id="skills" class="section-content">
+            <h2>Technical Skills & Certifications</h2>
+            <ul>
+                <li>Python</li>
+                <li>Fundamentals of Computing</li>
+                <li>HTML</li>
+            </ul>
+        </section>
+
+        <section id="volunteer" class="section-content">
+            <h2>Volunteer Experience</h2>
+            <p><i>No specific volunteer experience listed.</i></p>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Ramesh Vinayagam</p>
+    </footer>
+</body>
+</html>
